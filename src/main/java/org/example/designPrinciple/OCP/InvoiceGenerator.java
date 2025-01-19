@@ -1,4 +1,5 @@
 package org.example.designPrinciple.OCP;
 
-public class InvoiceGenerator {
+public interface InvoiceGenerator {
+    void generateInvoice(double amount);
 }
