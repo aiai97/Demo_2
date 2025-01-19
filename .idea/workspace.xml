@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87764153-5721-423a-8d12-1fa05d33e38b" name="Changes" comment="first try">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/OCP/BasicInvoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/OCP/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/OCP/InternationalInvoice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/OCP/Invoice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/OCP/InvoiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/OCP/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/LSP/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/LSP/FuelCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/LSP/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPrinciple/LSP/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +52,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Solution">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.designPrinciple.OCP.Client" />
       <module name="Demo_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.designPrinciple.OCP.*" />
+          <option name="PATTERN" value="org.example.designPrinciple.LSP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designPrinciple.LSP.Solution" />
+      <module name="Demo_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.designPrinciple.LSP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,6 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
@@ -81,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1737296070070</updated>
-      <workItem from="1737296071126" duration="1069000" />
+      <workItem from="1737296071126" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <option name="closed" value="true" />
