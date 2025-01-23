@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87764153-5721-423a-8d12-1fa05d33e38b" name="Changes" comment="first try">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/QueryType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/SupportHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/cp.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -116,7 +117,7 @@
       <workItem from="1737296071126" duration="3265000" />
       <workItem from="1737352078306" duration="555000" />
       <workItem from="1737617544278" duration="494000" />
-      <workItem from="1737618172533" duration="2227000" />
+      <workItem from="1737618172533" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <option name="closed" value="true" />
@@ -153,6 +154,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/SupportHandler.java</url>
           <line>43</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/SupportHandler.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/SupportHandler.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/SupportHandler.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
