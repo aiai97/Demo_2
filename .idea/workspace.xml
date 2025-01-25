@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87764153-5721-423a-8d12-1fa05d33e38b" name="Changes" comment="first try">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/cp.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CP/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/BrainNegotiator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/IdeaDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/PatienceDepartment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/iterator/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/iterator/BookCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/iterator/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.example.designPatterns.behavior.CRP.Solution">
+  <component name="RunManager" selected="Application.org.example.designPatterns.behavior.Mediator.Solution">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.designPrinciple.OCP.Client" />
       <module name="Demo_2" />
@@ -98,8 +105,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.example.designPatterns.behavior.Mediator.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.behavior.Mediator.Solution" />
+      <module name="Demo_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.designPatterns.behavior.Mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.designPatterns.behavior.iterator.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.designPatterns.behavior.iterator.Solution" />
+      <module name="Demo_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.designPatterns.behavior.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.example.designPatterns.behavior.Mediator.Solution" />
+        <item itemvalue="Application.org.example.designPatterns.behavior.iterator.Solution" />
         <item itemvalue="Application.org.example.designPatterns.behavior.CRP.Solution" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Client" />
@@ -117,7 +152,9 @@
       <workItem from="1737296071126" duration="3265000" />
       <workItem from="1737352078306" duration="555000" />
       <workItem from="1737617544278" duration="494000" />
-      <workItem from="1737618172533" duration="3324000" />
+      <workItem from="1737618172533" duration="5201000" />
+      <workItem from="1737693941084" duration="598000" />
+      <workItem from="1737697919021" duration="7152000" />
     </task>
     <task id="LOCAL-00001" summary="first try">
       <option name="closed" value="true" />
@@ -169,6 +206,36 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/CRP/SupportHandler.java</url>
           <line>41</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/IdeaDepartment.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/IdeaDepartment.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/PatienceDepartment.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/BrainNegotiator.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/BrainNegotiator.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/designPatterns/behavior/Mediator/BrainNegotiator.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
